@@ -1,0 +1,9 @@
+main {
+    min-height: 70vh;
+    padding: 0 5vw;
+    margin-top: 10rem;
+    
+    @media (max-width: $mobile-breakpoint) {
+        margin-top: 4rem;    
+        }
+    }

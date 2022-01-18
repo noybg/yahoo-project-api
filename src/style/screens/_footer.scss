@@ -1,0 +1,22 @@
+footer {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: arial;
+
+    .strong {
+        font-weight: bolder;
+    }
+    .link-name {
+        text-decoration: underline;
+        margin-left: 5px;
+    }
+
+    @media (max-width: $mobile-breakpoint) {
+        display: inline-table;
+        padding: 0 4rem;
+    }
+
+}
