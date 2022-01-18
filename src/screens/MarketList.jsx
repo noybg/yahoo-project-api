@@ -3,7 +3,6 @@ import PageHeader from '../components/PageHeader';
 import MarketTable from '../components/MarketTable';
 import { Redirect } from 'react-router-dom'
 
-//commit
 const MarketList = () => {
 
     const [lang, setLang] = useState('en');
